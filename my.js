@@ -78,7 +78,7 @@ function popup(par) {
         $.ajax({
           type: "POST",
           dataType: "json",
-          url: 'https://formcarry.com/s/t3ynqmA_I',
+          url: 'https://formcarry.com/s/70DfWNoQm',
           data: $(this).serialize(),
           success: function (response) {
             if ((response.status == "success") && (cb.checked == true)) {
